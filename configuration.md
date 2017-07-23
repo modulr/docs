@@ -1,9 +1,22 @@
 # Configure
 
-Generate .env file
+#### Generate .env file
 
 ```bash
 ~/modulr-laravel$ cp .env.example .env
+```
+
+#### Generate APP_KEY
+
+```bash
+~/modulr-laravel$ php artisan key:generate
+```
+
+#### Create Data Base
+
+```bash
+~/modulr-laravel$ mysql -u{user} -p{password}
+~/modulr-laravel$ create database modulr_laravel
 ```
 
 #### Database config params

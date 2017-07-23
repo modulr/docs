@@ -36,7 +36,13 @@ Install dependencies
 
 ## Configure
 
-Generate APP\_KEY
+Create .env file
+
+```
+~/modulr-laravel$ cp .env.example .env
+```
+
+Generate APP_KEY
 
 ```
 ~/modulr-laravel$ php artisan key:generate
@@ -47,12 +53,6 @@ Create Data Base
 ```
 ~/modulr-laravel$ mysql -u{user} -p{password}
 ~/modulr-laravel$ create database modulr_laravel
-```
-
-Create .env file
-
-```
-~/modulr-laravel$ cp .env.example .env
 ```
 
 Configure .env file
@@ -102,8 +102,6 @@ Run serve
 ~/modulr-laravel$ php artisan serve
 ```
 
-##
-
 ## Community
 
 * Join [the official Slack room](https://modulr.slack.com/).
@@ -111,7 +109,9 @@ Run serve
 
 ## Credits
 
-* [@Alfredobarron](https://github.com/alfredobarron)
+* [@alfredobarron](https://github.com/alfredobarron)
+* [@deleonn](https://github.com/deleonn)
+* [@EduardoDArellano](https://github.com/EduardoDArellano)
 
 ## License
 
