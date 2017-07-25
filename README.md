@@ -1,16 +1,14 @@
-# modulr-laravel
+# Modulr Laravel
 
-### The base for developingawesome projects, custom made software for your company
+### The base for developing awesome projects
+
+
 [Web page ](https://modulr.io)
-## Table of Contents
-
-* [Demo](#demo)
-* [Community](#community)
-* [Credits](#credits)
-* [License](#license)
 
 ## Demo
+
 You can also try our live demo, just sign up and enjoy the experience of modulr [here](https://app.modulr.io)
+
 ## Community
 
 * Join [the official Slack room](https://modulr.slack.com/).
