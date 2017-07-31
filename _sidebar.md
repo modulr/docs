@@ -8,3 +8,4 @@
 - [Contacts](contacts.md)
 - [Tasks](tasks.md)
 - [News](news.md)
+- [Files](files.md)
