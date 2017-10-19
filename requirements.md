@@ -1,15 +1,28 @@
 # Requirements
-Modulr is based on the LAMP stack
+
+> Modulr is based on the LAMP stack
 
 - Linux
-- Apache
-- MySQL
-- PHP
+- [Apache](https://www.apache.org/)
+- [MySQL](https://www.mysql.com/)
+- [PHP](http://php.net/)
+    - PHP >= 7.0.0
+    - OpenSSL PHP Extension
+    - PDO PHP Extension
+    - Tokenizer PHP Extension
+    - Mbstring PHP Extension
+    - XML PHP Extension
+    - GD module for PHP
+- [Git](https://git-scm.com/)
+- [Composer](https://getcomposer.org/)
+- [Node](https://nodejs.org)
+- [NPM](https://www.npmjs.com/)
 
-And to improve the performance and keep us updated we work with these technologies
+!> Local development environment by Laravel.
 
-- Laravel v5.4
-- Nodejs v8.0.0
-- npm v5.3.0
-- Git v2.7.4
-- Vue v2.0.3
+- [Homestead](https://laravel.com/docs/5.5/homestead)
+- [Valet](https://laravel.com/docs/5.5/valet)
+
+!> Production environment.
+
+- [Pre install Ubuntu](preinstallubuntu.md)

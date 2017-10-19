@@ -12,17 +12,23 @@
 ~/modulr-laravel$ php artisan key:generate
 ```
 
+#### Generate Symbolic link to Storage
+
+```bash
+~/modulr-laravel$ php artisan storage:link
+```
+
 #### Create Data Base
 
 ```bash
 ~/modulr-laravel$ mysql -u{user} -p{password}
-~/modulr-laravel$ create database modulr_laravel
+~/modulr-laravel$ create database modulr_laravel;
 ```
 
 #### Database config params
 
 ```
-//.env
+// .env file
 
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
@@ -35,10 +41,9 @@ DB_PASSWORD=password
 #### Broadcasting config params
 
 ```
-//.env
+// .env file
 
 BROADCAST_DRIVER=pusher
-
 PUSHER_APP_ID=pusher_id
 PUSHER_APP_KEY=pusher_key
 PUSHER_APP_SECRET=pusher_secret
