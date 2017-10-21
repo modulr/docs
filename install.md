@@ -1,6 +1,6 @@
 # Install
 
-## Install Modulr Laravel
+## Install Modulr
 
 #### Clone repository
 

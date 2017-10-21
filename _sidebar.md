@@ -10,7 +10,3 @@
     - [Tasks](tasks.md)
     - [News](news.md)
     - [Files](files.md)
-
-
-- Guides
-    - [Pre install Ubuntu](preinstallubuntu.md)
