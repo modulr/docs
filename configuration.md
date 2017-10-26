@@ -1,34 +1,38 @@
 # Configure
 
-#### Generate .env file
+## Generate .env
 
 ```bash
 ~/modulr-laravel$ cp .env.example .env
 ```
 
-#### Generate APP_KEY
+
+## Generate APP_KEY
 
 ```bash
 ~/modulr-laravel$ php artisan key:generate
 ```
 
-#### Generate Symbolic link to Storage
+
+## Generate Symbolic link to Storage
 
 ```bash
 ~/modulr-laravel$ php artisan storage:link
 ```
 
-#### Create Data Base
+
+## Create Data Base
 
 ```bash
 ~/modulr-laravel$ mysql -u{user} -p{password}
 ~/modulr-laravel$ create database modulr_laravel;
 ```
 
-#### Database config params
+
+## Database config params
 
 ```
-// .env file
+// .env
 
 DB_CONNECTION=mysql
 DB_HOST=127.0.0.1
@@ -38,7 +42,8 @@ DB_USERNAME=user
 DB_PASSWORD=password
 ```
 
-#### Broadcasting config params
+
+## Broadcasting config params
 
 ```
 // .env file

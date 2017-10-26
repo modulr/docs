@@ -3,7 +3,7 @@
 > The base for developing awesome projects
 
 [GitHub](https://github.com/modulr/modulr-laravel)
-[Get Started](#modulr-laravel)
+[Get Started](#modulr)
 
 <!-- background color -->
 ![color](#ffe5c6)

@@ -1,22 +1,19 @@
 # Install
 
-## Install Modulr
-
-#### Clone repository
+## Clone Modulr Repo
 
 ```bash
 $ git clone https://github.com/modulr/modulr-laravel.git
 ```
 
-!> Enter to folder
+Enter to folder
 
 ```bash
 $ cd modulr-laravel
 ```
 
-## Install Dependencies
 
-#### Composer dependencies
+## Install Composer Dependencies
 
 See all composer dependencies [composer.json](https://github.com/modulr/modulr-laravel/blob/master/composer.json)
 
@@ -24,7 +21,8 @@ See all composer dependencies [composer.json](https://github.com/modulr/modulr-l
 ~/modulr-laravel$ composer install
 ```
 
-#### NMP dependencies
+
+## Install NMP Dependencies
 
 See all npm dependencies [package.json](https://github.com/modulr/modulr-laravel/blob/master/package.json)
 
