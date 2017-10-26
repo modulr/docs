@@ -1,5 +1,6 @@
 - Getting started
     - [Requirements](requirements.md)
+    - [Structure](structure.md)
     - [Install](install.md)
     - [Configuration](configuration.md)
     - [Run](run.md)
