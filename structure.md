@@ -15,6 +15,8 @@
 ├── resources
     └── views
     └── assets
-    └── js
-└── routes
+        ├── js
+        └── sass
+├── routes
+└── storage
 ```
