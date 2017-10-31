@@ -7,6 +7,12 @@
 
 Get and list all events
 
+#### Route
+
+```php
+Route::get('/all', 'EventController@all');
+```
+
 #### Controller
 
 ```php
@@ -16,12 +22,6 @@ public function all()
                   ->orderBy('id', 'desc')
                   ->paginate(20);
 }
-```
-
-#### Route
-
-```php
-Route::get('/all', 'EventController@all');
 ```
 
 #### Vue Component
@@ -90,6 +90,12 @@ Route::get('/all', 'EventController@all');
 
 ## Create
 
+#### Route
+
+```php
+Route::post('/store', 'EventController@store');
+```
+
 #### Controller
 
 ```php
@@ -112,12 +118,6 @@ public function store(Request $request)
 
     return Event::with('user')->find($q->id);
 }
-```
-
-#### Route
-
-```php
-Route::post('/store', 'EventController@store');
 ```
 
 #### Vue Component
@@ -226,6 +226,12 @@ Route::post('/store', 'EventController@store');
 
 ## Update
 
+#### Route
+
+```php
+Route::put('/update/{id}', 'EventController@update');
+```
+
 #### Controller
 
 ```php
@@ -246,12 +252,6 @@ public function update(Request $request, $id)
 
     return $q;
 }
-```
-
-#### Route
-
-```php
-Route::put('/update/{id}', 'EventController@update');
 ```
 
 #### Vue Component
@@ -356,6 +356,12 @@ Route::put('/update/{id}', 'EventController@update');
 
 ## Delete
 
+#### Route
+
+```php
+Route::delete('/destroy/{id}', 'EventController@destroy');
+```
+
 #### Controller
 
 ```php
@@ -363,12 +369,6 @@ public function destroy($id)
 {
     return Event::destroy($id);
 }
-```
-
-#### Route
-
-```php
-Route::delete('/destroy/{id}', 'EventController@destroy');
 ```
 
 #### Vue Component
