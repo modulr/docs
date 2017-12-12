@@ -24,7 +24,8 @@ Modulr is based on the **LAMP** stack (Linux, Apache, MySQL & PHP) and **Node**.
 - Tokenizer PHP Extension - _Enabled default on php 7_
 - Mbstring PHP Extension - _Install it with_ `$ sudo apt-get install php-mbstring`
 - XML PHP Extension - _Install it with_ `$ sudo apt-get install php-xml`
-- GD module for PHP Install GD module for PHP - _Install it with_ `$ sudo apt-get install php-gd`
+- CURL PHP Extension - _Install it with_ `$ sudo apt-get install php-curl`
+- GD PHP Extension - _Install it with_ `$ sudo apt-get install php-gd`
 
 ### Install Git
 
