@@ -10,14 +10,16 @@
     - [Add Styles](addstyles.md)
 
 - Modules
+    - [Authentication](authentication.md)
+    - [Dashboard](dashboard.md)
     - [Contacts](contacts.md)
-    <!-- - [Dashboard] -->
-    <!-- - [Events] -->
+    - [Events](events.md)
     - [Files](files.md)
     - [News](news.md)
-    <!-- - [Profile]  -->
+    - [Notifications](notifications.md)
+    - [Profile](profile.md)
     - [Tasks](tasks.md)
-    <!-- - [Users] -->
+    - [Users & Access](usersaccess.md)
 
 <!--
 - components
