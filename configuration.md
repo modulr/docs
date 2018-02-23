@@ -25,7 +25,7 @@
 
 ```bash
 ~/modulr-laravel$ mysql -u{user} -p{password}
-~/modulr-laravel$ create database modulr_laravel;
+mysql> create database modulr_laravel;
 ```
 
 
