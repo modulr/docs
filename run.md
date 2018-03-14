@@ -24,6 +24,13 @@ This seeder create 10 users to database
 ~/modulr-laravel$ php artisan db:seed --class=FakerDataSeeder
 ```
 
+!> If exist someting error run this command
+
+
+```bash
+$ composert dumpautoload
+```
+
 
 ## Compiling Assets (Laravel Mix)
 
