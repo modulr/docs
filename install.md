@@ -47,7 +47,7 @@ See all composer dependencies [composer.json](https://github.com/modulr/modulr-l
 ```
 
 
-## Install NMP Dependencies
+## Install NPM Dependencies
 
 See all npm dependencies [package.json](https://github.com/modulr/modulr-laravel/blob/master/package.json)
 
