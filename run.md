@@ -21,7 +21,7 @@ This seeder fill lists to database
 This seeder create 10 users to database
 
 ```bash
-~/modulr-laravel$ php artisan db:seed --class=FakerDataSeeder
+~/modulr-laravel$ php artisan db:seed --class=FakerSeeder
 ```
 
 !> If exist someting error run this command
