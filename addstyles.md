@@ -7,7 +7,7 @@
 To create a [sass](http://sass-lang.com/) file, use the `touch` command:
 
 ```bash
-~/modulr-laravel$ touch resources/assets/sass/modules/_events.scss
+~/laravel-scaffold-v1$ touch resources/assets/sass/modules/_events.scss
 ```
 
 

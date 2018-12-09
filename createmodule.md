@@ -10,7 +10,7 @@
 To create a [migration](https://laravel.com/docs/5.5/migrations), use the `make:migration` [Artisan command](https://laravel.com/docs/5.5/artisan):
 
 ```bash
-~/modulr-laravel$ php artisan make:migration create_events_table
+~/laravel-scaffold-v1$ php artisan make:migration create_events_table
 ```
 
 Migration Structure
@@ -48,7 +48,7 @@ public function down()
 To run all of your outstanding migrations, execute the `migrate` Artisan command:
 
 ```bash
-~/modulr-laravel$ php artisan migrate
+~/laravel-scaffold-v1$ php artisan migrate
 ```
 
 
@@ -59,7 +59,7 @@ When testing, you may need to insert a few records into your database, for examp
 To create a [factory](https://laravel.com/docs/5.5/database-testing#writing-factories), use the `touch` command:
 
 ```bash
-~/modulr-laravel$ touch database/factories/EventFactory.php
+~/laravel-scaffold-v1$ touch database/factories/EventFactory.php
 ```
 
 Factory Structure
@@ -100,7 +100,7 @@ factory(App\User::class, 10)
 Running Seeder
 
 ```bash
-~/modulr-laravel$ php artisan db:seed --class=FakerDataSeeder
+~/laravel-scaffold-v1$ php artisan db:seed --class=FakerDataSeeder
 ```
 
 ### Create Model
@@ -108,7 +108,7 @@ Running Seeder
 The easiest way to create a [model](https://laravel.com/docs/5.5/eloquent#defining-models) instance is using the `make:model` Artisan command:
 
 ```bash
-~/modulr-laravel$ php artisan make:model Models/Events/Event
+~/laravel-scaffold-v1$ php artisan make:model Models/Events/Event
 ```
 
 Model Structure
@@ -179,7 +179,7 @@ Route::middleware('auth')->group(function () {
 To create a [controller](https://laravel.com/docs/5.5/controllers), execute the `make:controller` Artisan command:
 
 ```bash
-~/modulr-laravel$ php artisan make:controller Events/EventController
+~/laravel-scaffold-v1$ php artisan make:controller Events/EventController
 ```
 
 Controller Structure
@@ -206,7 +206,7 @@ class EventController extends Controller
 To create a [view](https://laravel.com/docs/5.5/views), use the `mkdir` and `touch` commands:
 
 ```bash
-~/modulr-laravel$ mkdir resources/views/events && touch resources/views/events/events.blade.php
+~/laravel-scaffold-v1$ mkdir resources/views/events && touch resources/views/events/events.blade.php
 ```
 
 View Structure
@@ -229,7 +229,7 @@ View Structure
 To create a [vue](https://vuejs.org/v2/guide/) component, use the `mkdir` and `touch` commands:
 
 ```bash
-~/modulr-laravel$ mkdir resources/assets/js/components/events && touch resources/assets/js/components/events/Events.vue
+~/laravel-scaffold-v1$ mkdir resources/assets/js/components/events && touch resources/assets/js/components/events/Events.vue
 ```
 
 Vue Component Structure

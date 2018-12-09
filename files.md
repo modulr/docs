@@ -7,7 +7,7 @@
 
 #### Migration
 
-File: [database/migrations/2017_07_12_233302_create_files_table.php](https://github.com/modulr/modulr-laravel/blob/master/database/migrations/2017_07_12_233302_create_files_table.php)
+File: [database/migrations/2017_07_12_233302_create_files_table.php](https://github.com/modulr/laravel-scaffold-v1/blob/master/database/migrations/2017_07_12_233302_create_files_table.php)
 
 ```php
 $table->increments('id');
@@ -26,11 +26,11 @@ $table->softDeletes();
 
 #### Models
 
-File: [app/File.php](https://github.com/modulr/modulr-laravel/blob/master/app/File.php)
+File: [app/File.php](https://github.com/modulr/laravel-scaffold-v1/blob/master/app/File.php)
 
 #### Routes
 
-File: [routes/web.php](https://github.com/modulr/modulr-laravel/blob/master/routes/web.php)
+File: [routes/web.php](https://github.com/modulr/laravel-scaffold-v1/blob/master/routes/web.php)
 
 ```php
 // Files
@@ -43,20 +43,20 @@ File: [routes/web.php](https://github.com/modulr/modulr-laravel/blob/master/rout
 
 #### Controllers
 
-File: [app/Http/Controllers/FileController.php](https://github.com/modulr/modulr-laravel/blob/master/app/Http/Controllers/FileController.php)
+File: [app/Http/Controllers/FileController.php](https://github.com/modulr/laravel-scaffold-v1/blob/master/app/Http/Controllers/FileController.php)
 
 #### Views
 
-File: [resources/views/files.blade.php](https://github.com/modulr/modulr-laravel/blob/master/resources/views/files.blade.php)
+File: [resources/views/files.blade.php](https://github.com/modulr/laravel-scaffold-v1/blob/master/resources/views/files.blade.php)
 
 ## Frontend
 
 #### Components
 
-Folder: [resources/assets/js/components](https://github.com/modulr/modulr-laravel/tree/master/resources/assets/js/components/files)
+Folder: [resources/assets/js/components](https://github.com/modulr/laravel-scaffold-v1/tree/master/resources/assets/js/components/files)
 
-File: [resources/assets/js/components/Tasks.vue](https://github.com/modulr/modulr-laravel/tree/master/resources/assets/js/components/files/Files.vue)
+File: [resources/assets/js/components/Tasks.vue](https://github.com/modulr/laravel-scaffold-v1/tree/master/resources/assets/js/components/files/Files.vue)
 
 #### Sass
 
-File: [resources/assets/sass/_files.scss](https://github.com/modulr/modulr-laravel/blob/master/resources/assets/sass/_files.scss)
+File: [resources/assets/sass/_files.scss](https://github.com/modulr/laravel-scaffold-v1/blob/master/resources/assets/sass/_files.scss)

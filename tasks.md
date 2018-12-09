@@ -7,7 +7,7 @@
 
 #### Migration
 
-File: [database/migrations/2017_07_08_211240_create_tasks_table.php](https://github.com/modulr/modulr-laravel/blob/master/database/migrations/2017_07_08_211240_create_tasks_table.php)
+File: [database/migrations/2017_07_08_211240_create_tasks_table.php](https://github.com/modulr/laravel-scaffold-v1/blob/master/database/migrations/2017_07_08_211240_create_tasks_table.php)
 
 ```php
 $table->increments('id');
@@ -22,11 +22,11 @@ $table->softDeletes();
 
 #### Models
 
-File: [app/Task.php](https://github.com/modulr/modulr-laravel/blob/master/app/Task.php)
+File: [app/Task.php](https://github.com/modulr/laravel-scaffold-v1/blob/master/app/Task.php)
 
 #### Routes
 
-File: [routes/web.php](https://github.com/modulr/modulr-laravel/blob/master/routes/web.php)
+File: [routes/web.php](https://github.com/modulr/laravel-scaffold-v1/blob/master/routes/web.php)
 
 ```php
 //Tasks
@@ -41,20 +41,20 @@ File: [routes/web.php](https://github.com/modulr/modulr-laravel/blob/master/rout
 
 #### Controllers
 
-File: [app/Http/Controllers/TaskController.php](https://github.com/modulr/modulr-laravel/blob/master/app/Http/Controllers/TaskController.php)
+File: [app/Http/Controllers/TaskController.php](https://github.com/modulr/laravel-scaffold-v1/blob/master/app/Http/Controllers/TaskController.php)
 
 #### Views
 
-File: [resources/views/tasks.blade.php](https://github.com/modulr/modulr-laravel/blob/master/resources/views/tasks.blade.php)
+File: [resources/views/tasks.blade.php](https://github.com/modulr/laravel-scaffold-v1/blob/master/resources/views/tasks.blade.php)
 
 ## Frontend
 
 #### Components
 
-Folder: [resources/assets/js/components](https://github.com/modulr/modulr-laravel/tree/master/resources/assets/js/components)
+Folder: [resources/assets/js/components](https://github.com/modulr/laravel-scaffold-v1/tree/master/resources/assets/js/components)
 
-File: [resources/assets/js/components/Tasks.vue](https://github.com/modulr/modulr-laravel/tree/master/resources/assets/js/components/Tasks.vue)
+File: [resources/assets/js/components/Tasks.vue](https://github.com/modulr/laravel-scaffold-v1/tree/master/resources/assets/js/components/Tasks.vue)
 
 #### Sass
 
-File: [resources/assets/sass/_tasks.scss](https://github.com/modulr/modulr-laravel/blob/master/resources/assets/sass/_tasks.scss)
+File: [resources/assets/sass/_tasks.scss](https://github.com/modulr/laravel-scaffold-v1/blob/master/resources/assets/sass/_tasks.scss)

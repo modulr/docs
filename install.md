@@ -1,15 +1,15 @@
 # Install
 
-## Clone Modulr Repo
+## Clone LS v1 Repo
 
 ```bash
-$ git clone https://github.com/modulr/modulr-laravel.git
+$ git clone https://github.com/modulr/laravel-scaffold-v1.git
 ```
 
 Enter to folder
 
 ```bash
-$ cd modulr-laravel
+$ cd laravel-scaffold-v1
 ```
 
 
@@ -40,17 +40,17 @@ $ cd modulr-laravel
 
 ## Install Composer Dependencies
 
-See all composer dependencies [composer.json](https://github.com/modulr/modulr-laravel/blob/master/composer.json)
+See all composer dependencies [composer.json](https://github.com/modulr/laravel-scaffold-v1/blob/master/composer.json)
 
 ```bash
-~/modulr-laravel$ composer install
+~/laravel-scaffold-v1$ composer install
 ```
 
 
 ## Install NMP Dependencies
 
-See all npm dependencies [package.json](https://github.com/modulr/modulr-laravel/blob/master/package.json)
+See all npm dependencies [package.json](https://github.com/modulr/laravel-scaffold-v1/blob/master/package.json)
 
 ```bash
-~/modulr-laravel$ npm install
+~/laravel-scaffold-v1$ npm install
 ```

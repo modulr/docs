@@ -7,7 +7,7 @@
 
 #### Migration
 
-File: [database/migrations/2017_07_05_210219_create_news_table.php](https://github.com/modulr/modulr-laravel/blob/master/database/migrations/2017_07_05_210219_create_news_table.php)
+File: [database/migrations/2017_07_05_210219_create_news_table.php](https://github.com/modulr/laravel-scaffold-v1/blob/master/database/migrations/2017_07_05_210219_create_news_table.php)
 
 ```php
 $table->increments('id');
@@ -23,11 +23,11 @@ $table->softDeletes();
 
 #### Models
 
-File: [app/News.php](https://github.com/modulr/modulr-laravel/blob/master/app/News.php)
+File: [app/News.php](https://github.com/modulr/laravel-scaffold-v1/blob/master/app/News.php)
 
 #### Routes
 
-File: [routes/web.php](https://github.com/modulr/modulr-laravel/blob/master/routes/web.php)
+File: [routes/web.php](https://github.com/modulr/laravel-scaffold-v1/blob/master/routes/web.php)
 
 ```php
 // News
@@ -41,20 +41,20 @@ File: [routes/web.php](https://github.com/modulr/modulr-laravel/blob/master/rout
 
 #### Controllers
 
-File: [app/Http/Controllers/NewsController.php](https://github.com/modulr/modulr-laravel/blob/master/app/Http/Controllers/NewsController.php)
+File: [app/Http/Controllers/NewsController.php](https://github.com/modulr/laravel-scaffold-v1/blob/master/app/Http/Controllers/NewsController.php)
 
 #### Views
 
-File: [resources/views/news.blade.php](https://github.com/modulr/modulr-laravel/blob/master/resources/views/news.blade.php)
+File: [resources/views/news.blade.php](https://github.com/modulr/laravel-scaffold-v1/blob/master/resources/views/news.blade.php)
 
 ## Frontend
 
 #### Components
 
-Folder: [resources/assets/js/components/news](https://github.com/modulr/modulr-laravel/tree/master/resources/assets/js/components/news)
+Folder: [resources/assets/js/components/news](https://github.com/modulr/laravel-scaffold-v1/tree/master/resources/assets/js/components/news)
 
-File: [resources/assets/js/components/news/News.vue](https://github.com/modulr/modulr-laravel/tree/master/resources/assets/js/components/news/News.vue)
+File: [resources/assets/js/components/news/News.vue](https://github.com/modulr/laravel-scaffold-v1/tree/master/resources/assets/js/components/news/News.vue)
 
 #### Sass
 
-File: [resources/assets/sass/_news.scss](https://github.com/modulr/modulr-laravel/blob/master/resources/assets/sass/_news.scss)
+File: [resources/assets/sass/_news.scss](https://github.com/modulr/laravel-scaffold-v1/blob/master/resources/assets/sass/_news.scss)

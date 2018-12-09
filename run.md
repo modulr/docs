@@ -3,7 +3,7 @@
 ## Run migrations
 
 ```bash
-~/modulr-laravel$ php artisan migrate
+~/laravel-scaffold-v1$ php artisan migrate
 ```
 
 
@@ -12,7 +12,7 @@
 This seeder fill lists to database
 
 ```bash
-~/modulr-laravel$ php artisan db:seed
+~/laravel-scaffold-v1$ php artisan db:seed
 ```
 
 
@@ -21,7 +21,7 @@ This seeder fill lists to database
 This seeder create 10 users to database
 
 ```bash
-~/modulr-laravel$ php artisan db:seed --class=FakerDataSeeder
+~/laravel-scaffold-v1$ php artisan db:seed --class=FakerDataSeeder
 ```
 
 
@@ -29,13 +29,13 @@ This seeder create 10 users to database
 
 ```bash
 // Watching Assets For Changes
-~/modulr-laravel$ npm run watch
+~/laravel-scaffold-v1$ npm run watch
 
 // Run all Mix tasks...
-~/modulr-laravel$ npm run dev
+~/laravel-scaffold-v1$ npm run dev
 
 // Run all Mix tasks and minify output...
-~/modulr-laravel$ npm run production
+~/laravel-scaffold-v1$ npm run production
 ```
 
 
@@ -46,5 +46,5 @@ Local Development Server
 If you have PHP installed locally and you would like to use PHP's built-in development server to serve your application, you may use the serve Artisan command. This command will start a development server at [http://localhost:8000](http://localhost:8000)
 
 ```bash
-~/modulr-laravel$ php artisan serve
+~/laravel-scaffold-v1$ php artisan serve
 ```

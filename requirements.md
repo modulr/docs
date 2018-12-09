@@ -1,6 +1,6 @@
 # Requirements
 
-Modulr is based on the **LAMP** stack (Linux, Apache, MySQL & PHP) and **Node**.
+LS v1 is based on the **LAMP** stack (Linux, Apache, MySQL & PHP) and **Node**.
 
 
 ## Install development environment *by Laravel*.
