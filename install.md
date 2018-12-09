@@ -47,7 +47,7 @@ See all composer dependencies [composer.json](https://github.com/modulr/laravel-
 ```
 
 
-## Install NMP Dependencies
+## Install NPM Dependencies
 
 See all npm dependencies [package.json](https://github.com/modulr/laravel-scaffold-v1/blob/master/package.json)
 
